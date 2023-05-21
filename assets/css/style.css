@@ -1,0 +1,86 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&family=Rubik:wght@400;500&display=swap');
+
+body {
+    font-family: "Rubik"; sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+/* hexagone for the hive can be reuse for different chapter*/
+
+#hex1 {
+  height: 175px;
+  width: 200px;
+  clip-path: polygon(25% 5%, 75% 5%, 95% 50%, 75% 95%, 25% 95%, 05% 50%);
+  background-color: black;
+  position: absolute;
+  margin: -15px 15px 1px -20px;
+  clear: both;
+  }
+
+#hex2 {
+  position:absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background-color: #F08C08;
+  clip-path: polygon(26% 7%, 74% 7%, 93% 50%, 74% 93%, 26% 93%, 7% 50%);
+}
+
+/* element for inside logo*/
+
+#logo {
+  margin-top: 30%;
+  line-height: 75%;
+  color: black;
+}
+
+#first {
+  padding-left: 35px;
+  align-self: flex-start;
+}
+
+#second {
+  padding-left: 45px;
+}
+
+#icon {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 15% ;  
+}
+
+/* navigation link*/
+
+#menu {
+  font-size: large;
+  letter-spacing: 4px;
+  display: inline;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 75px;
+  margin-top: 40px;
+  flex-direction: row-reverse;
+
+}
+
+#menu a {
+  text-decoration: none;
+  color: #F08C08;
+}
+
+/* hive image*/
+
+#honey-hive {
+  height: 600px;
+  width: 100%;
+  background: url(../images/honey-hive.jpeg);
+}
+
