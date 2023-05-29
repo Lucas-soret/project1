@@ -1,18 +1,28 @@
   @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&family=Rubik:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 
 body {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+h1 h2 {
     font-family: "Rubik"; sans-serif;
     font-weight: 400;
     color: black;
 }
 
-
+br {
+  line-height: 15px;
+}
 
 /* hexagone for the hive can be reuse for different chapter*/
 
 #hex1 {
-  height: 175px;
-  width: 200px;
+  height: 200px;
+  width: 225px;
   clip-path: polygon(25% 5%, 75% 5%, 95% 50%, 75% 95%, 25% 95%, 05% 50%);
   background-color: black;
   position: absolute;
@@ -34,7 +44,8 @@ body {
 /* element for inside logo*/
 
 #logo {
-  margin-top: 30%;
+  margin-left: auto;
+  margin-top: 35%;
   line-height: 75%;
   color: black;
 }
@@ -45,14 +56,14 @@ body {
 }
 
 #second {
-  padding-left: 45px;
+  padding-left: 25%;
 }
 
 #icon {
-  height: 50px;
-  width: 50px;
+  height: 35%;
+  width: auto;
   position: absolute;
-  margin-left: 50%;
+  margin-left: 45%;
   margin-top: 15% ;  
 }
 
@@ -69,17 +80,15 @@ body {
   list-style-type: none;
   margin-right: 75px;
   margin-top: 30px;
-  flex-direction: row-reverse;
-
-
 }
 
 #menu a {
   font-weight: bold;
   text-decoration: none;
   color: black;
-
 }
+
+
 
 /* hive image*/
 
@@ -89,7 +98,42 @@ body {
   background: url(../images/bee-give-honey.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  margin: 50px -10px 0 -10px;
+  margin: 60px -10px 0 -10px;
+}
 
+/* section type of bee */
+
+#type-bee h2 {
+
+  margin-left: 10%;
+  color: #F08C08;
+}
+
+#type-bee div {
+  width: 20%;
+  height: 390px;
+  float: left;
+  line-height: 1.5;
+  margin: 0 2.5% 0 2.5%;
+  background-color: #f08b08bd;
+  display: block;
+}
+
+#type-bee h3 {
+  padding: 0 auto;
+  position: absolute;
+  margin-left: 5px;
+  
+ }
+
+#type-bee p {
+  position: absolute;
+  text-align: justify;
+  margin-top: 3%;
+  margin-left: 1%;
+  max-width: 18%;
+  font-size: large;
+  color: black;
+  max-height: max-content;
 }
 
