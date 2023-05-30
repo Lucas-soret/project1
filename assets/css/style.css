@@ -103,37 +103,43 @@ br {
 
 /* section type of bee */
 
-#type-bee h2 {
-
-  margin-left: 10%;
-  color: #F08C08;
+#type-bee {
+  background-image: url(../images/hive-pattern.jpg);
+  height: 400px;
+  width: 100%;
+  max-height: max-content;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: static;
+  margin: 0 auto;
 }
 
+section h2 {
+  margin-left: 10%;
+  color: #F08C08;
+  }
+
 #type-bee div {
-  width: 20%;
-  height: 390px;
+  width: 25%;
+  height: inherit;
+  min-height: 400px;
   float: left;
-  line-height: 1.5;
-  margin: 0 2.5% 0 2.5%;
-  background-color: #f08b08bd;
-  display: block;
+  line-height: 1.5;  
+  background-color: #f08b0879;
 }
 
 #type-bee h3 {
   padding: 0 auto;
-  position: absolute;
-  margin-left: 5px;
-  
+  margin-left: 7px;  
  }
 
 #type-bee p {
-  position: absolute;
+  width: 90%;
   text-align: justify;
-  margin-top: 3%;
-  margin-left: 1%;
-  max-width: 18%;
   font-size: large;
   color: black;
-  max-height: max-content;
+  padding: 5%
 }
 
