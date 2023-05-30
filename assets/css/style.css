@@ -14,9 +14,6 @@ h1 h2 {
     color: black;
 }
 
-br {
-  line-height: 15px;
-}
 
 /* hexagone for the hive can be reuse for different chapter*/
 
@@ -28,7 +25,7 @@ br {
   position: absolute;
   margin: -15px 15px 1px -20px;
   clear: both;
-  }
+}
 
 #hex2 {
   position:absolute;
@@ -119,7 +116,7 @@ br {
 section h2 {
   margin-left: 10%;
   color: #F08C08;
-  }
+}
 
 #type-bee div {
   width: 25%;
@@ -133,7 +130,7 @@ section h2 {
 #type-bee h3 {
   padding: 0 auto;
   margin-left: 7px;  
- }
+}
 
 #type-bee p {
   width: 90%;
@@ -143,3 +140,30 @@ section h2 {
   padding: 5%
 }
 
+/* Footer */
+
+footer {
+  height: 40px;
+  background-color: grey;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 0.5%;
+  }
+
+.social-media > li {
+  display: inline;
+
+  
+}
+
+.social-media a {
+  font-size: 100%;
+  padding: 01% 5%;
+  color: #F08C08;
+  text-decoration-line: none;
+
+  
+ }
