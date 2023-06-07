@@ -151,19 +151,26 @@ footer {
   text-align: center;
   margin-top: 5%;
   padding-top: 0.5%;
-  }
+}
 
 .social-media > li {
-  display: inline;
-
-  
+  display: inline;  
 }
 
 .social-media a {
   font-size: 100%;
   padding: 01% 5%;
   color: #F08C08;
-  text-decoration-line: none;
+  text-decoration-line: none;  
+}
 
-  
- }
+#bee-live iframe{
+    display: inline;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+}
+
+iframe {
+    border: solid 1px black;
+    margin: auto 0;
+}
