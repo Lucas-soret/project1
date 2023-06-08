@@ -9,8 +9,8 @@ body {
 }
 
 h1 h2 {
-    font-family: "Rubik"; sans-serif;
-    font-weight: 400;
+    font-family: "Fira"; sans-serif;
+    font-weight: 300;
     color: black;
 }
 
@@ -165,12 +165,16 @@ footer {
 }
 
 #bee-live iframe{
-    display: inline;
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+  display: inline;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
 }
 
 iframe {
-    border: solid 1px black;
-    margin: auto 0;
+  border: solid 1px black;
+  margin: auto 0;
+}
+
+#hive {
+  margin-top: 5%;
 }
