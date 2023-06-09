@@ -161,6 +161,10 @@ section h2 {
   text-decoration-line: none;  
 }
 
+#footer-hive {
+  margin-top: 1000px;
+}
+
 /* Iframe video */
 
 #bee-live iframe{
@@ -186,7 +190,9 @@ iframe {
   margin: 10 0 10 5;
   height: 328px;
   width: 50%;
+  float: left;
 }
+
 
 .hives img {
   height: 8cm;
@@ -198,13 +204,13 @@ iframe {
 }
 
 .hives h3 {
-  padding-top: 3%;
+  padding-top: 2%;
   text-decoration: underline solid black 1px;
 }
 
 .hives p {
   height: 5cm;
-  width: 20cm;
+  width: 25cm;
   font-size: 18px;
   text-align: justify;
 }
