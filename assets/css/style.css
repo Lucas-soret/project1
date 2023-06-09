@@ -145,6 +145,7 @@ section h2 {
 footer {
   height: 40px;
   background-color: grey;
+  position: relative;
 }
 
 .social-media {
@@ -164,6 +165,9 @@ footer {
   text-decoration-line: none;  
 }
 
+
+  /* Iframe video */
+
 #bee-live iframe{
   display: inline;
   margin-inline-start: 10%;
@@ -175,6 +179,40 @@ iframe {
   margin: auto 0;
 }
 
+  /* type of hive page */
+
 #hive {
   margin-top: 5%;
+  margin-left: 2%;
+  height: auto;
 }
+
+.hive-type div{
+  width: 50%;
+  float: left;
+}
+
+.hives {
+  margin: 10 0 10 5;
+  height: 328px;
+}
+
+.hives img {
+  height: 8cm;
+  width: 8cm;
+  overflow: hidden;
+  float: left;
+  margin-top: 5px;
+  padding-right: 25px;
+  }
+
+  .hives h3 {
+  text-decoration: underline solid black 1px;
+  }
+
+  .hives p {
+    height: 5cm;
+    width: 20cm;
+    font-size: 18px;
+    text-align: justify;
+  }
