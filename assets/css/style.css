@@ -225,10 +225,10 @@ iframe {
 
 form {
   width: 30%;
-  clear: right;
   background-color: #f08b0879;
-  margin: 5%;
-  padding: 1%
+  margin: 2%;
+  padding: 1%;
+  float: left;
 }
 
 fieldset {
@@ -258,4 +258,17 @@ input {
 .submit {
   margin-left: 88%;
   font-size: 15px;
+}
+
+/* Gallery */
+
+#photo {
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#photo > img {
+  max-width: 300px;
+  max-height: 400px;
 }
