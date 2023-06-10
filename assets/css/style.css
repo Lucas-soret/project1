@@ -72,6 +72,14 @@ h1 h2 {
   display: inline;
 }
 
+#menu a:hover {
+  border-bottom: #F08C08 1px solid;
+}
+
+.active {
+  color:#F08C08
+}
+
 #menu li {
   float: right;
   list-style-type: none;
