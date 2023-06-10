@@ -160,7 +160,7 @@ section h2 {
   color: #F08C08;
   text-decoration-line: none;  
 }
-
+ /* Issue to feet the footer in type of hive page */
 #footer-hive {
   margin-top: 1000px;
 }
@@ -209,8 +209,53 @@ iframe {
 }
 
 .hives p {
-  height: 5cm;
-  width: 25cm;
+  height: 6cm;
+  width: 90%;
   font-size: 18px;
   text-align: justify;
+}
+
+/* People section */
+
+#form {
+  margin-top: 7%;
+  margin-left: 2%;
+  height: 100%;
+}
+
+form {
+  width: 30%;
+  clear: right;
+  background-color: #f08b0879;
+  margin: 5%;
+  padding: 1%
+}
+
+fieldset {
+  margin-bottom: 1%;
+}
+
+input {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#fieldset1> label {
+  width: 25%;
+  padding-right: 9px;
+  clear: both;
+}
+
+#fieldset1 > .signup {
+  width: 300px;
+}
+
+.email {
+  margin-left: 0;
+  width: 300px;
+}
+
+.submit {
+  margin-left: 88%;
+  font-size: 15px;
 }
