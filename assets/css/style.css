@@ -76,7 +76,7 @@ h1 h2 {
   border-bottom: #F08C08 1px solid;
 }
 
-.active {
+#menu .active {
   color:#F08C08
 }
 
@@ -280,3 +280,135 @@ input {
   max-width: 300px;
   max-height: 400px;
 }
+
+  /*screen query*/
+
+@media screen and (max-width: 1400px) {
+  #honey-hive {
+    height: 250px;
+  }
+
+  #menu li {
+    margin-right: 20px;    
+  }
+
+
+  #type-bee {
+    height: 100%;
+    max-height: none;
+    background-size: 120%;
+  }
+
+  #type-bee div{
+    width: 100%;
+    min-height: 100px;
+  }
+
+  #type-bee p {
+    margin-top: 2%;
+    padding: 0 2% 0 0;
+    width: 99%;    
+  }
+
+  #hive > h2{
+    margin-top: 13%;
+    margin-left: 22%;
+  }
+
+  .hives {
+    float: none;
+    width: 100%;
+  }
+
+  .hives p {
+    float: left;
+    width: 50%;
+  }
+
+  #footer-hive {
+    margin: 0;
+  }
+
+  #form > h2{
+    margin-top: 16%;
+    margin-left: 22%;
+  }
+
+  form {
+    width: 75%;
+    float:none;
+  }
+
+  #photo > img {
+    max-width: 256px;
+  }
+
+  #photo {
+    column-count: 3;
+    margin: 1;
+  }
+}
+  
+@media screen and (max-width: 680px) and (min-width: 320px) {
+
+  #menu {
+    font-size: medium;
+    letter-spacing: normal;
+  }
+
+  #menu li {
+    margin-top: 14px;
+    margin-right: 9px;
+  }
+
+  #type-bee {
+    background-repeat: repeat-y;
+    background-position: 0;
+  }
+
+  #bee-live {
+    width: 300px;
+  }
+
+  #hive > h2{
+    margin-top: 140px;
+    margin-left: 30px;
+  }
+
+  .hives {
+    width: 98%;
+    float: none;
+    margin: 0;
+    clear: both;
+    display: flexbox;
+    }
+
+  .hives img {
+    float: none;
+    clear: both;
+  }
+
+  .hives p {
+    width: 98%;
+  }
+
+  #footer-hive {
+    margin-top: 334px;
+  }
+
+  #form > h2{
+    margin-top: 155px;
+    margin-left: 30px;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  #photo img {
+    max-width: 191px;
+  }
+    
+}
+
+
