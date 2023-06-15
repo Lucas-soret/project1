@@ -14,6 +14,12 @@ h1 h2 {
     color: black;
 }
 
+section h2 {
+  margin-left: 145px;
+  padding-top: 62px;
+  color: #F08C08;
+  clear:right;
+}
 
 /* hexagone for the hive can be reuse for different chapter*/
 
@@ -69,7 +75,8 @@ h1 h2 {
 #menu {
   font-size: large;
   letter-spacing: 4px;
-  display: inline;
+  display: inline-flex;
+  float: inline-end;
 }
 
 #menu a:hover {
@@ -81,7 +88,6 @@ h1 h2 {
 }
 
 #menu li {
-  float: right;
   list-style-type: none;
   margin-right: 75px;
   margin-top: 30px;
@@ -93,9 +99,7 @@ h1 h2 {
   color: black;
 }
 
-
-
-/* hive image*/
+  /* hive image*/
 
 #honey-hive {
   height: 600px;
@@ -104,9 +108,10 @@ h1 h2 {
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 60px -10px 0 -10px;
+  clear: both;
 }
 
-/* section type of bee */
+  /* section type of bee */
 
 #type-bee {
   background-image: url(../images/hive-pattern.jpg);
@@ -121,9 +126,8 @@ h1 h2 {
   margin: 0 auto;
 }
 
-section h2 {
-  margin-left: 10%;
-  color: #F08C08;
+#bee h2 {
+  padding: 0;
 }
 
 #type-bee div {
@@ -225,17 +229,29 @@ iframe {
 
 /* People section */
 
+
+
+#people > h3 {
+  margin-left: 2%;
+}
+
+#people > p {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  width: 500px;
+}
+
 #form {
-  margin-top: 7%;
   margin-left: 2%;
   height: 100%;
 }
 
 form {
-  width: 30%;
+  max-width: 600px;
+  width: 484px;
   background-color: #f08b0879;
-  margin: 2%;
-  padding: 1%;
+  margin:0 1.5% 1% 2%;
+  padding: 10px;
   float: left;
 }
 
@@ -264,26 +280,24 @@ input {
 }
 
 .submit {
-  margin-left: 88%;
   font-size: 15px;
 }
 
 /* Gallery */
 
 #photo {
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
+  min-width: 250px;
+  margin: 1%;
 }
 
 #photo > img {
-  max-width: 300px;
-  max-height: 400px;
+  width: 250px;
+  padding: 0.5%;
 }
 
   /*screen query*/
 
-@media screen and (max-width: 1400px) {
+    @media screen and (max-width: 769px) {
   #honey-hive {
     height: 250px;
   }
@@ -329,38 +343,42 @@ input {
     margin: 0;
   }
 
-  #form > h2{
-    margin-top: 16%;
-    margin-left: 22%;
+  #form #people{
+    margin-left: 20px;
   }
 
   form {
-    width: 75%;
-    float:none;
+    margin-left: 35px;
+  }
+
+  #photo  {
+    column-count: 3;
   }
 
   #photo > img {
-    max-width: 256px;
+    width: 227px;
+    padding: 0;
   }
 
-  #photo {
-    column-count: 3;
-    margin: 1;
-  }
 }
   
-@media screen and (max-width: 680px) and (min-width: 320px) {
+@media screen and (max-width: 480px) and (min-width: 320px) {
 
   #menu {
-    font-size: medium;
+    font-size: smaller;
     letter-spacing: normal;
+    display: inline-flex;
+     width: 70px; 
   }
+
 
   #menu li {
     margin-top: 14px;
-    margin-right: 9px;
+    margin-left: 9px; 
+    
   }
 
+ 
   #type-bee {
     background-repeat: repeat-y;
     background-position: 0;
